@@ -10,7 +10,6 @@ import PropTypes from 'prop-types';
 // import { useStaticQuery, graphql } from 'gatsby';
 
 import './components.css';
-import './icons.css';
 import './responsee.css';
 import './template-style.css';
 import './custom.css';
