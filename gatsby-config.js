@@ -21,8 +21,7 @@ module.exports = {
         apiURL: process.env.API_URL,
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
-          "article",
-          "user",
+          "depliant",
         ],
         queryLimit: 1000,
       },
