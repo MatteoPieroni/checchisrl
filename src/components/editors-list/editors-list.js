@@ -2,7 +2,7 @@ import React from 'react';
 import { EditorLogo } from '../editor-logo';
 
 export const EditorsList = ({ list }) => {
-	const { allStrapiEditore: { edges } } = list;
+	const { edges } = list;
 
 	return (
 		<section className="section background-white">

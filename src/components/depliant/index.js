@@ -1,0 +1,1 @@
+export { Depliant } from './depliant';

@@ -1,3 +1,10 @@
 .margin-auto {
   margin: 0 auto;
 }
+
+.depliant.gatsby-image-wrapper {
+  margin: 0 auto;
+  width: auto;
+  max-width: 50%;
+  height: auto;
+}

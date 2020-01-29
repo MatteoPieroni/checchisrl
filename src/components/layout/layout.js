@@ -18,11 +18,11 @@ import { Footer } from '../footer';
 
 export const Layout = ({ children }) => {
 	return (
-		<>
+		<div className="size-1140">
 			<Header />
 			<main>{children}</main>
 			<Footer />
-		</>
+		</div>
 	);
 };
 
