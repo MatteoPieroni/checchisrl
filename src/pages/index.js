@@ -10,7 +10,6 @@ import { TeamMembersList } from '../components/team-members-list/team-members-li
 const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depliantData, allStrapiTeamMember: teamMembersData } }) => (
 	<Layout>
 		<SEO title="Home" />
-
 		<div id="page-wrapper">
 			<main role="main">
 				<article>
@@ -37,7 +36,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 									<h2>Libri scolastici</h2>
 									<p className="margin-bottom">
 										Rappresentanza e distribuzione di testi scolastici e
-                    parascolastici per le scuole dell’infanzia e primarie
+										parascolastici per le scuole dell’infanzia e primarie
 									</p>
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
@@ -47,8 +46,8 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 									<h2>Cartoleria</h2>
 									<p className="margin-bottom">
 										Da oltre 50 anni la cartolibreria Checchi offre un servizio
-                    attento e qualificato alle famiglie, ai ragazzi e al mondo
-                    della scuola.
+										attento e qualificato alle famiglie, ai ragazzi e al mondo
+										della scuola.
 									</p>
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
@@ -58,8 +57,8 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 									<h2>Centro didattico</h2>
 									<p className="margin-bottom">
 										Uno spazio accogliente e di libero accesso ad uso esclusivo
-                    dei docenti che possono così consultare libri e guide,
-                    vedere dvd o ascoltare cd.
+										dei docenti che possono così consultare libri e guide,
+										vedere dvd o ascoltare cd.
 									</p>
 								</div>
 							</div>
