@@ -18,9 +18,9 @@ export const Header = () => {
 				<div className="s-12 l-10">
 					<div className="top-nav right">
 						<ul className="right chevron">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="/">Home</a></li>
 							<li><a href="about-us.html">About Us</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="/contattaci">Contatti</a></li>
 						</ul>
 					</div>
 				</div>

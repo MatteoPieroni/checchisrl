@@ -8,3 +8,20 @@
   max-width: 50%;
   height: auto;
 }
+
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+p.success-notification {
+  display: inline-block;
+  padding: 0.5rem 6rem;
+  background: green;
+  line-height: 1;
+  color: #fff;
+}
+
+.hidden {
+  display: none !important;
+}

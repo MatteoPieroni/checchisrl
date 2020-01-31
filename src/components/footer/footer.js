@@ -3,6 +3,9 @@ import React from 'react';
 import { Icons } from '../icons';
 
 export const Footer = () => {
+	const date = new Date();
+	const year = date.getFullYear();
+
 	return (
 		<footer>
 			<div className="background-dark padding text-center footer-social">
@@ -61,7 +64,7 @@ export const Footer = () => {
 			<section className="padding background-dark full-width">
 				<div className="text-center">
 					<p className="text-size-12">
-          Copyright 2020, Cartolibreria Checchi srl
+						Copyright {year}, Cartolibreria Checchi srl
 					</p>
 				</div>
 			</section>
