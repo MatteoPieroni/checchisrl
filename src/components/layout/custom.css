@@ -25,3 +25,19 @@ p.success-notification {
 .hidden {
   display: none !important;
 }
+
+body,
+.main-background {
+  background: #d2fafb;
+}
+
+.evidence-background {
+  background: #6bc5d2;
+}
+
+.button,
+a.button,
+a.button:link,
+a.button:visited {
+  background: #b5525c;
+}

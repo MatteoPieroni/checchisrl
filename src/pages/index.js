@@ -13,7 +13,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 		<div id="page-wrapper">
 			<main role="main">
 				<article>
-					<header className="section-top-padding background-white">
+					<header className="section-top-padding">
 						<div className="line text-center">
 							<h1
 								className="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1"
@@ -26,7 +26,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 						</div>
 					</header>
 					<Depliant data={depliantData} />
-					<section className="section-top-padding background-white">
+					<section className="section-top-padding ">
 						<div className="line">
 							<div className="margin">
 								<div className="s-12 m-12 l-4 margin-m-bottom">

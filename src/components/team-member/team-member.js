@@ -2,9 +2,9 @@ import React from 'react';
 import Img from 'gatsby-image';
 
 export const TeamMember = ({ member }) => {
-	const { node: { immagine: { childImageSharp: { fluid } }, nome, ruolo } } = member;
+	const { immagine: { childImageSharp: { fluid } }, nome, ruolo } = member;
 	return (
-		<div className="s-6 m-4 l-4">
+		<div className="s-6 m-4 l-3">
 			<div className="padding">
 				<Img fluid={fluid} alt={nome} className="full-img border-image border-primary" />
 				<h3

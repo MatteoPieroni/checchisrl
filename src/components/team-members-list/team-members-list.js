@@ -5,7 +5,7 @@ export const TeamMembersList = ({ list }) => {
 	const { edges } = list;
   
 	return (
-		<section className="section-top-padding background-white">
+		<section className="section-top-padding">
 			<div className="line">
 				<h2
 					className="text-s-size-40 text-size-50 text-line-height-1 margin-bottom-10 text-thin text-center"
@@ -17,7 +17,7 @@ export const TeamMembersList = ({ list }) => {
         Il nostro team garantisce sempre il miglior servizio. Che si
         tratti di cartoleria, aiuto ai docenti o rappresentanza.
 				</p>
-				{edges && edges.map(member => <TeamMember member={member} key={member.id} />)}
+				{edges && edges.map(({ node }) => <TeamMember member={node} key={node.id} />)}
 			</div>
 		</section>
 

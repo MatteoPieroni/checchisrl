@@ -13,7 +13,7 @@ const ContactPage = ({ location }) => {
 			<div id="page-wrapper">
 				<main role="main">
 					<article>
-						<header className="section background-white">
+						<header className="section">
 							<div className="line text-center">
 								<h1
 									className="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1"
@@ -101,7 +101,7 @@ const ContactPage = ({ location }) => {
 							</div>
 						</section>
 
-						<section className="section background-white">
+						<section className="section">
 							<div className="s-12 m-12 l-4 center">
 								<h4 className="text-size-20 margin-bottom-20 text-dark text-center">
 									Inviaci una mail

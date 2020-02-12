@@ -5,7 +5,7 @@ export const Depliant = ({ data }) => {
 	const { anno, url, file_depliant: { absolutePath }, image: { childImageSharp: { fluid } } } = data;
 
 	return (
-		<section className="section-top-padding background-white">
+		<section className="section-both-padding evidence-background">
 			<div className="line">
 				<div className="margin">
 					<div className="s-12 m-12 l-4 margin-m-bottom">
