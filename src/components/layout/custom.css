@@ -28,16 +28,30 @@ p.success-notification {
 
 body,
 .main-background {
-  background: #d2fafb;
+  background: #f8f8f8;
 }
 
 .evidence-background {
-  background: #6bc5d2;
+  background: #385170;
+}
+
+p.evidence-text,
+h2.evidence-text {
+  color: #f8f8f8;
 }
 
 .button,
 a.button,
 a.button:link,
 a.button:visited {
-  background: #b5525c;
+  background: #9fd3c7;
+  color: #333;
+}
+
+a.evidence {
+  color: #9fd3c7 !important;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
 }

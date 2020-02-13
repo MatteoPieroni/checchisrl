@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'gatsby-image';
 
 export const Depliant = ({ data }) => {
-	const { anno, url, file_depliant: { absolutePath }, image: { childImageSharp: { fluid } } } = data;
+	const { anno, file_depliant: { absolutePath }, image: { childImageSharp: { fluid } } } = data;
 
 	return (
 		<section className="section-both-padding evidence-background">
@@ -14,11 +14,8 @@ export const Depliant = ({ data }) => {
 						</a>
 					</div>
 					<div className="s-12 m-12 l-8 margin-m-bottom">
-						<a className="image-hover-zoom margin-bottom" href={url} target="_blank" rel="noopener noreferrer"
-						>
-							<h2>Depliant {anno}</h2>
-						</a>
-						<p className="margin-bottom">
+						<h2 className="evidence-text">Depliant {anno}</h2>
+						<p className="margin-bottom evidence-text">
               Clicca sulla Copertina per visualizzare online il Depliant oppure clicca quì sotto per scaricare il depliant in formato PDF.
 						</p>
 						<a href={absolutePath} target="_blank" rel="noopener noreferrer" className="button">Scarica il depliant</a>

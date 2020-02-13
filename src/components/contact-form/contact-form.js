@@ -40,7 +40,7 @@ export const ContactForm = () => {
 			<label className="hidden">Don’t fill this out if you&aposre human: <input name="botty-field" /></label>
 			<div className="s-12">
 				<button
-					className="s-12 submit-form button background-primary text-white"
+					className="s-12 submit-form button text-white"
 					type="submit"
 				>
           Invia la mail

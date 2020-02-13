@@ -5,7 +5,7 @@ body {
   background: #fff;
 }
 p {
-  color: #777;
+  color: #525151;
   font-size: 0.85rem;
   line-height: 1.6rem;
 }
@@ -583,7 +583,7 @@ aside.aside-left {
   > ul
   > li.active-item
   > a:visited {
-  border-color: #002633;
+  border-color: #385170;
 }
 
 /* Font colors */
@@ -595,7 +595,7 @@ a.background-white,
 .background-white a:visited,
 .background-white a:hover,
 .background-white a:active {
-  color: #777;
+  color: #525151;
 }
 .background-dark,
 .background-dark p,
@@ -770,7 +770,7 @@ a.background-primary:link,
 }
 .background-dark,
 .primary-color-dark .background-primary {
-  background-color: #002633 !important;
+  background-color: #142d4c !important;
 }
 
 /* Hover Overlay */
@@ -2247,7 +2247,7 @@ a {
 p,
 .background-white,
 .background-white p {
-  color: #999;
+  color: #525151;
 }
 p.form-success {
   color: #fff !important;
@@ -2819,7 +2819,7 @@ a.background-yellow:link,
 }
 .background-dark,
 .primary-color-dark .background-primary {
-  background-color: #282828 !important;
+  background-color: #142d4c !important;
 }
 .button.button-white-stroke:hover,
 a.button.button-white-stroke:hover,
@@ -2929,7 +2929,7 @@ a.background-dark:link,
 .primary-color-dark .background-primary a:visited,
 .primary-color-dark .background-primary a:hover,
 .primary-color-dark .background-primary a:active {
-  color: #777;
+  color: #d0d0d0;
 }
 
 /* Tabs */
@@ -3101,7 +3101,7 @@ aside {
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
-  height: 600px;
+  height: 500px;
   width: 100%;
 }
 

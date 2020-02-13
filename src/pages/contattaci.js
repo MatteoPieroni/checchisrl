@@ -36,10 +36,8 @@ const ContactPage = ({ location }) => {
 						</header>
 						<section className="full-width background-dark flex-vertical-center">
 							<div className="s-12 m-12 l-6">
-								<div
-								// style="background-image: url(img/img-contact.jpg);"
-									className="contact-image"
-								></div>
+								<div style={{ backgroundImage: 'url(https://res.cloudinary.com/djsb71n23/image/upload/v1581632355/checchisrl/checchi-srl-indirizzo-mappa_xzw8ek.jpg)' }} className="contact-image">
+								</div>
 							</div>
 							<div className="s-12 m-12 l-6 text-center">
 								<div
@@ -70,6 +68,7 @@ const ContactPage = ({ location }) => {
 											<span itemProp="addressLocality">Massarosa (Lu)</span>
 										</span>
 									</p>
+									<p className="text-size-16"><a className="evidence" href="https://www.google.com/maps/dir//Cartolibreria+Checchi+Srl,+Via+Cavalieri+di+Vittorio+Veneto,+222,+55054+Massarosa+LU,+Italia/@43.8671594,10.3369385,17z/data=!4m16!1m6!3m5!1s0x12d59ea482c01547:0x5af9acfe4396971c!2sCartolibreria+Checchi+Srl!8m2!3d43.8671556!4d10.3391272!4m8!1m0!1m5!1m1!1s0x12d59ea482c01547:0x5af9acfe4396971c!2m2!1d10.3391272!2d43.8671556!3e3" target="_blank" rel="noopener noreferrer">Indicazioni</a></p>
 									<i
 										className="icon-sli-envelope text-white text-size-30 center margin-top-20"
 									></i>
