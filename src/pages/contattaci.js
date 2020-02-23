@@ -4,9 +4,9 @@ import { Layout } from '../components/layout';
 import SEO from '../components/seo';
 import { ContactForm } from '../components/contact-form';
 
-const ContactPage = () => {
+const ContactPage = ({ location }) => {
 	return (
-		<Layout>
+		<Layout location={location}>
 			<SEO title="Contattaci" />
 			<div id="page-wrapper">
 				<main role="main">

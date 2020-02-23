@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 // import { useStaticQuery, graphql } from 'gatsby';
 
@@ -16,10 +16,14 @@ import './custom.css';
 import { Header } from '../header';
 import { Footer } from '../footer';
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, location }) => {
+	useEffect(() => {
+		document.getElementById('root').classList.remove('show-menu');
+	}, []);
+
 	return (
-		<div className="size-1140">
-			<Header />
+		<div className="size-1140" id="root">
+			<Header location={location} />
 			<main>{children}</main>
 			<Footer />
 		</div>

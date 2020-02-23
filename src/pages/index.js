@@ -7,8 +7,8 @@ import { EditorsList } from '../components/editors-list';
 import { Depliant } from '../components/depliant/depliant';
 import { TeamMembersList } from '../components/team-members-list/team-members-list';
 
-const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depliantData, allStrapiTeamMember: teamMembersData } }) => (
-	<Layout>
+const IndexPage = ({ location, data: { allStrapiEditore: editorsData, strapiDepliant: depliantData, allStrapiTeamMember: teamMembersData } }) => (
+	<Layout location={location}>
 		<SEO title="Home" />
 		<div id="page-wrapper">
 			<main role="main">

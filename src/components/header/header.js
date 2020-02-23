@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export const Header = () => {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	useEffect(() => {
+		if (isMenuOpen) {
+			document.getElementById('root').classList.add('show-menu');
+		} else {
+			document.getElementById('root').classList.remove('show-menu');
+		}
+
+		return () => document.getElementById('root').classList.remove('show-menu');
+	}, [isMenuOpen]);
+
 	return (
 		<header
 			role="banner"
@@ -16,6 +28,7 @@ export const Header = () => {
 					</a>
 				</div>
 				<div className="s-12 l-10">
+					<p className="nav-text" onClick={() => setIsMenuOpen(!isMenuOpen)}><span></span></p>
 					<div className="top-nav right">
 						<ul className="right chevron">
 							<li><a href="/">Home</a></li>
