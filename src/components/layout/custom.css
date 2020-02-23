@@ -22,6 +22,14 @@ p.success-notification {
   color: #fff;
 }
 
+p.error-notification {
+  display: inline-block;
+  padding: 0.5rem 6rem;
+  background: #e20000;
+  line-height: 1;
+  color: #fff;
+}
+
 .hidden {
   display: none !important;
 }
@@ -54,4 +62,15 @@ a.evidence {
 
 .vertical-bottom {
   vertical-align: bottom;
+}
+
+form.customform input,
+form.customform textarea {
+  margin-bottom: 0;
+}
+
+form.customform .input-error {
+  display: block;
+  margin-top: 5px;
+  color: #e23503;
 }

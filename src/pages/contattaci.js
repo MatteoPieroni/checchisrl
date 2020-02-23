@@ -4,9 +4,7 @@ import { Layout } from '../components/layout';
 import SEO from '../components/seo';
 import { ContactForm } from '../components/contact-form';
 
-const ContactPage = ({ location }) => {
-	const isSuccess = location?.search.slice(1).split('&').filter(query => (query === 'message=success')).length === 1;
-
+const ContactPage = () => {
 	return (
 		<Layout>
 			<SEO title="Contattaci" />
@@ -20,11 +18,6 @@ const ContactPage = ({ location }) => {
 								>
 									Contattaci
 								</h1>
-								{isSuccess && (
-									<div className="margin-top-30 margin-bottom-30 text-s-size30">
-										<p className="success-notification">Grazie per averci contattati</p>
-									</div>
-								)}
 								<p className="margin-bottom-0 text-size-16 text-dark">
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit
                 esse molestie consequat, vel illum dolore eu feugiat nulla
