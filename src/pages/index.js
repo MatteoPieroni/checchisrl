@@ -30,9 +30,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 						<div className="line">
 							<div className="margin">
 								<div className="s-12 m-12 l-4 margin-m-bottom">
-									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582481156/checchisrl/checchi-srl-libri-scolastici-massarosa-lucca_dygppj.jpg" alt=""
-										/></a>
+									<img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582481156/checchisrl/checchi-srl-libri-scolastici-massarosa-lucca_dygppj.jpg" alt="Checchi srl magazzino libri scolastici" className="margin-bottom" />
 									<h2>Libri scolastici</h2>
 									<p className="margin-bottom">
 										Rappresentanza e distribuzione di testi scolastici e
@@ -40,9 +38,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 									</p>
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
-									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-centro-didattico-maestre-maestri-massarosa_oouo0h.jpg" alt=""
-										/></a>
+									<img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-centro-didattico-maestre-maestri-massarosa_oouo0h.jpg" alt="Checchi srl cartoleria e giocattoli" className="margin-bottom" />
 									<h2>Cartoleria</h2>
 									<p className="margin-bottom">
 										Da oltre 50 anni la cartolibreria Checchi offre un servizio
@@ -51,9 +47,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 									</p>
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
-									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-cartoleria-regali-giocattoli-massarosa_g99off.jpg" alt=""
-										/></a>
+									<img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-cartoleria-regali-giocattoli-massarosa_g99off.jpg" alt="Checchi srl centro didattico" className="margin-bottom" />
 									<h2>Centro didattico</h2>
 									<p className="margin-bottom">
 										Uno spazio accogliente e di libero accesso ad uso esclusivo
