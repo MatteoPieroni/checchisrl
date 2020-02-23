@@ -42,15 +42,15 @@ export const Footer = () => {
 						<div className="s-12 m-12 l-4 margin-m-bottom-30">
 							<h3 className="text-size-16">E-mail</h3>
 							<p className="text-size-14">
-								<span itemProp="email">scolastico@checchisrl.it</span>
+								<a href="mailto:scolastico@checchisrl.it"><span itemProp="email">scolastico@checchisrl.it</span></a>
 							</p>
 						</div>
 						<div className="s-12 m-12 l-4 ">
 							<h3 className="text-size-16">Numeri di telefono</h3>
 							<p className="text-size-14">
-              tel <span itemProp="telephone">0584.939766</span><br />
-              fax <span itemProp="faxNumber">0584.963541</span><br />
-              cell <span itemProp="telephone">348.2304554</span>
+              tel <a href="tel:0584939766"><span itemProp="telephone">0584.939766</span></a><br />
+              fax <a href="tel:0584963541"><span itemProp="faxNumber">0584.963541</span></a><br />
+              cell <a href="tel:3482304554"><span itemProp="telephone">348.2304554</span></a>
 							</p>
 						</div>
 					</div>

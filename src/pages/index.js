@@ -31,7 +31,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 							<div className="margin">
 								<div className="s-12 m-12 l-4 margin-m-bottom">
 									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="img/img-03.jpg" alt=""
+									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582481156/checchisrl/checchi-srl-libri-scolastici-massarosa-lucca_dygppj.jpg" alt=""
 										/></a>
 									<h2>Libri scolastici</h2>
 									<p className="margin-bottom">
@@ -41,7 +41,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
 									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="img/img-04.jpg" alt=""
+									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-centro-didattico-maestre-maestri-massarosa_oouo0h.jpg" alt=""
 										/></a>
 									<h2>Cartoleria</h2>
 									<p className="margin-bottom">
@@ -52,7 +52,7 @@ const IndexPage = ({ data: { allStrapiEditore: editorsData, strapiDepliant: depl
 								</div>
 								<div className="s-12 m-12 l-4 margin-m-bottom">
 									<a className="image-hover-zoom margin-bottom" href="/"
-									><img src="img/img-05.jpg" alt=""
+									><img src="https://res.cloudinary.com/djsb71n23/image/upload/v1582480749/checchisrl/checchi-srl-cartoleria-regali-giocattoli-massarosa_g99off.jpg" alt=""
 										/></a>
 									<h2>Centro didattico</h2>
 									<p className="margin-bottom">
