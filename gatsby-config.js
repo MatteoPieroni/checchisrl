@@ -43,5 +43,14 @@ module.exports = {
 			},
 		},
 		'gatsby-plugin-offline',
+		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+			  fonts: [
+				'work sans'
+			  ],
+			  display: 'swap'
+			}
+		},
 	],
 };
